@@ -39,7 +39,7 @@ export default function ProductCard({ product }) {
   };
 
   return (
-    <Card clssName="hover:shadow-lg transition-shadow">
+    <Card className="hover:shadow-lg transition-shadow">
       <CardHeader className="pb-3">
         <div className="flex gap-4">
           {product.image_url && (
