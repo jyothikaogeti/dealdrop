@@ -1,6 +1,6 @@
 <div align="center">
 
-## 🚀 DealDrop - AI-Powered Product Price Tracker
+# 🚀 DealDrop - AI-Powered Product Price Tracker
 
 ![Next.js](https://img.shields.io/badge/Next.js-16.2-black?logo=next.js&logoColor=white) ![React](https://img.shields.io/badge/React-19.2-61DAFB?logo=react&logoColor=white) ![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-v4-38BDF8?logo=tailwindcss&logoColor=white) ![Supabase](https://img.shields.io/badge/Supabase-Postgres%20%2B%20Auth-3FCF8E?logo=supabase&logoColor=white) ![Firecrawl](https://img.shields.io/badge/Firecrawl-AI%20Web%20Scraping-FA5D19) ![Resend](https://img.shields.io/badge/Resend-Transactional%20Email-000000?logo=resend&logoColor=white)
 
@@ -120,33 +120,33 @@ dealdrop/
 
 DealDrop uses two main tables in Supabase (PostgreSQL).
 
-#### `products`
+### Products
 
 Stores each product a user is tracking.
 
-| Field             | Type      | Description                                |
-| ----------------- | --------- | ------------------------------------------ |
-| **id**            | uuid      | Primary key                                |
-| **user_id**       | uuid      | Owner of the product (linked to auth user) |
-| **product_url**   | text      | URL of the tracked product                 |
-| **product_name**  | text      | Scraped product name                       |
-| **current_price** | numeric   | Latest known price                         |
-| **currency**      | text      | Currency code (USD, INR, etc.)             |
-| **image_url**     | text      | Product image URL                          |
-| **created_at**    | timestamp | When tracking started                      |
-| **updated_at**    | timestamp | Last price update                          |
+| Field               | Type      | Description                                |
+| ------------------- | --------- | ------------------------------------------ |
+| **`id`**            | uuid      | Primary key                                |
+| **`user_id`**       | uuid      | Owner of the product (linked to auth user) |
+| **`product_url`**   | text      | URL of the tracked product                 |
+| **`product_name`**  | text      | Scraped product name                       |
+| **`current_price`** | numeric   | Latest known price                         |
+| **`currency`**      | text      | Currency code (USD, INR, etc.)             |
+| **`image_url`**     | text      | Product image URL                          |
+| **`created_at`**    | timestamp | When tracking started                      |
+| **`updated_at`**    | timestamp | Last price update                          |
 
-#### `price_history`
+### Price History
 
 Stores a price snapshot every time the price changes.
 
-| Field          | Type      | Description                  |
-| -------------- | --------- | ---------------------------- |
-| **id**         | uuid      | Primary key                  |
-| **product_id** | uuid      | Linked product (foreign key) |
-| **price**      | numeric   | Price at this point in time  |
-| **currency**   | text      | Currency code                |
-| **checked_at** | timestamp | When this price was recorded |
+| Field            | Type      | Description                  |
+| ---------------- | --------- | ---------------------------- |
+| **`id`**         | uuid      | Primary key                  |
+| **`product_id`** | uuid      | Linked product (foreign key) |
+| **`price`**      | numeric   | Price at this point in time  |
+| **`currency`**   | text      | Currency code                |
+| **`checked_at`** | timestamp | When this price was recorded |
 
 ## 🔌 API Reference
 
