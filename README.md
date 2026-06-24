@@ -1,8 +1,8 @@
 <div align="center">
 
-## 🚀 DealDrop — AI-Powered Product Price Tracker
+## 🚀 DealDrop - AI-Powered Product Price Tracker
 
-![Next.js](https://img.shields.io/badge/Next.js-16.2-black?logo=next.js&logoColor=white) ![React](https://img.shields.io/badge/React-19.2-61DAFB?logo=react&logoColor=white) ![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-v4-38BDF8?logo=tailwindcss&logoColor=white) ![Supabase](https://img.shields.io/badge/Supabase-Postgres%20%2B%20Auth-3FCF8E?logo=supabase&logoColor=white) ![Firecrawl](https://img.shields.io/badge/Firecrawl-AI%20Web%20Scraping-FA5D19) ![Resend](https://img.shields.io/badge/Resend-Transactional%20Email-000000?logo=resend&logoColor=white) ![shadcn/ui](https://img.shields.io/badge/shadcn%2Fui-Radix%20Primitives-18181B) ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
+![Next.js](https://img.shields.io/badge/Next.js-16.2-black?logo=next.js&logoColor=white) ![React](https://img.shields.io/badge/React-19.2-61DAFB?logo=react&logoColor=white) ![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-v4-38BDF8?logo=tailwindcss&logoColor=white) ![Supabase](https://img.shields.io/badge/Supabase-Postgres%20%2B%20Auth-3FCF8E?logo=supabase&logoColor=white) ![Firecrawl](https://img.shields.io/badge/Firecrawl-AI%20Web%20Scraping-FA5D19) ![Resend](https://img.shields.io/badge/Resend-Transactional%20Email-000000?logo=resend&logoColor=white)
 
 </div>
 
